@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: 1px solid;
+  font-size: 17px;
+  font-family: "Sora", sans-serif;
+  background-color: rgba(228, 227, 213, 0.534);
+}
+
+.heading {
+  background-color: rgba(189, 184, 184, 0.603);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address-div h4 {
+  text-align: center;
+  padding-top: -10px;
+}
+
+.other-details {
+  width: 100vw;
+  display: flex;
+  margin-top: 4rem;
+}
+
+.other-details .left-div {
+  height: auto;
+  width: 40%;
+  left: 0;
+  padding: 0 10px;
+}
+
+.highlight {
+  background-color: rgba(128, 128, 128, 0.322);
+  width: 90%;
+}
+
+.other-details .right-div {
+  height: auto;
+  width: 60%;
+}
+
+.right-div {
+  display: flex;
+}
+
+.right-div .right-div-leftdetails {
+  width: 50%;
+  padding: 0 10px;
+}
+
+.right-div-downdetails {
+  display: flex;
+}
+
+.right-div-downdetails h4 {
+  margin-right: 15px;
+}
+
+.table-data {
+  margin-top: 2rem;
+  padding: 0 10px;
+}
+
+.table-data > h3 {
+  margin-bottom: 0px;
+}
+
+.table-tag td {
+  padding: 0 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+table {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-collapse: collapse;
+}
+
+td {
+  width: 150px;
+  text-align: center;
+  padding: 15px;
+}
+
+.table-data {
+  padding-top: 50px;
+}
+
+.table.amount-div {
+  margin-top: 4rem;
+}
+
+.footer td {
+  border-top: 5px solid;
+}
+
+.totalAmount-table {
+  margin-top: 4rem;
+  height: auto;
+  width: 50%;
+  position: relative;
+  left: 50%;
+}
+
+.amtdetails {
+  display: flex;
+  margin-top: -10px;
+}
+
+.amtdetails .start {
+  width: 20%;
+}
+
+.amtdetails .mid {
+  width: 20%;
+  text-align: end;
+}
+
+.amtdetails .end {
+  width: 40%;
+  text-align: end;
+}
+
+.amtdetails .total {
+  width: 50%;
+}
+
+hr {
+  border: 3px solid;
+  background-color: black;
+}
+
+.net-invoice {
+  display: flex;
+}
+
+.net-invoice > h2 {
+  width: 50%;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.wording-details {
+  margin-top: 3rem;
+  padding: 10px;
+  display: flex;
+}
+
+.word-left-down {
+  margin-top: 4rem;
+}
+
+.word-right .company-name {
+  width: 100%;
+  margin-left: 50%;
+  margin-top: 8rem;
+}
+
+.word-right .sign {
+  width: 100%;
+  margin-left: 50%;
+  margin-top: 5rem;
+}
+
+.paragraph p {
+  font-size: 20px;
+  padding: 40px;
+  text-align: justify;
+}
